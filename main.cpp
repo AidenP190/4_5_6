@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     string sentence;
     getline(cin, sentence);
 
-    for(int i ; i < sentence.length();)
+    for(int i = 0 ; i < sentence.length();)
     {
         if(sentence.at(i) == ' ' && sentence.at(i-1) == ' ')
         {
